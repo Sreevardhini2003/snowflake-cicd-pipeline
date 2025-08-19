@@ -1,0 +1,3 @@
+CREATE OR REPLACE STAGE CICD_PROD_DB.CUSTOMER_STAGE
+URL='s3://your-bucket-name/'
+STORAGE_INTEGRATION = your_integration;
